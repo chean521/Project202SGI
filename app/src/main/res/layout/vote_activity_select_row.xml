@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vote_available_ttl"
+        android:gravity="center_vertical"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:textColor="@android:color/white"
+        tools:text="Activity Desc"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:id="@+id/vote_available_desc"
+        android:layout_below="@id/vote_available_ttl"
+        android:padding="4dp"
+        android:textSize="5.5pt"
+        android:textColor="@android:color/white"
+        tools:text="Activity Description"/>
+
+
+</RelativeLayout>

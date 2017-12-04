@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">INTI Voting System</string>
+    <string name="ttl_bar_1">Please select an option to continue.</string>
+
+    <string name="btn_txt_1">View Vote Result</string>
+    <string name="btn_txt_2">Close</string>
+    <string name="btn_txt_3">Make a Vote</string>
+    <string name="btn_txt_4">About Voting System</string>
+
+    <string name="view_act_ttl">View Result</string>
+
+    <string name="about_titleText">About INTI Voting System</string>
+    <string name="creator_name">Creator: Oscar Loh</string>
+    <string name="copy_text">Copyright \u00a9 2017, All Right Reserved.</string>
+
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_exit">Exit</string>
+    <string name="btn_back">Back</string>
+
+    <string name="login_txtID">Student ID</string>
+    <string name="login_txtPw">Password</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="view_msg">Please select an activity to view.</string>
+    <string name="vote_msg">Please select an available activity to vote.</string>
+    <string name="panel_msg">Please select a desired candidate to be voted.</string>
+
+    <string name="vote_instruction">
+        Attention
+        \n1. Please read carefully before proceeding selection.
+        \n2. Once voted cannot undone previous procedures.
+        \n3. Above selection are the candidates in that activity only.
+    </string>
+
+</resources>

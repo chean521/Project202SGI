@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="@string/view_msg"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <!-- A RecyclerView with some commonly used attributes -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/view_act_data"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_act_back_btn"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_rounded"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
